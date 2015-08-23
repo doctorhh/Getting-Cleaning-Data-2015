@@ -34,7 +34,7 @@ Training and test data (X_train.txt, X_test.txt), subject  (subject_train.txt, s
 
 Extract mean and standard deviation variables
 
-From the combined data set is selected and created an intermediate data set with only the values of estimated mean (variables with labels that contain ???mean()") and standard deviation (variables with labels that contain "std").
+From the combined data set is selected and created an intermediate data set with only the values of estimated mean (variables with labels that contain "mean()") and standard deviation (variables with labels that contain "std").
 
 Use descriptive activity names
 From the descriptions in activity_labels.txt file, the label are being matched and applied to the intermediate data set.
