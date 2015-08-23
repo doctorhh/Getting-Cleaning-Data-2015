@@ -14,7 +14,7 @@ Check the README.txt file for further details about this dataset. For the purpos
 - train/subject_train.txt
 - train/X_train.txt
 - train/y_train.txt
-- 
+
 ### Value extracted from the file:
 
 - Values of Activity consist of data from "Y_train.txt" and "Y_test.txt"
