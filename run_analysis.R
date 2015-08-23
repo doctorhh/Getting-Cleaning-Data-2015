@@ -48,7 +48,7 @@ MasterData <- cbind(FeatureData, SubjectData, ActivityData)
 MasterData_clean <- MasterData[ , !duplicated(colnames(MasterData))]
 
 # Extracting only the measurement of mean() and std() for "each" measurement
-DataAnalysis <- select(MasterData_clean, contains("mean()"), contains("std()"), SubjectId, ActivityType)
+DataAnalysis <- select(MasterData_clean, contains("mean"), contains("std"), SubjectId, ActivityType, -contains("angle"), -contains("meanFreq"))
 
 # Providing descriptive  activity name to the activityType
 DataAnalysis$ActivityType <- as.character(ActivityLabel[DataAnalysis$ActivityType, 2])
