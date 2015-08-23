@@ -61,73 +61,70 @@ The tidy data set contains 180 observations with 68 variables divided in:
 
 - mean and SD are calculated for each subject for each activity for each mean and SD measurements.
 
-1 timeBodyAccelerometer-mean()-X
-2 timeBodyAccelerometer-mean()-Y
-3 timeBodyAccelerometer-mean()-Z
-4 timeBodyAccelerometer-std()-X
-5 timeBodyAccelerometer-std()-Y
-6 timeBodyAccelerometer-std()-Z
-9 timeBodyAccelerometer-mad()-Z
-41 timeGravityAccelerometer-mean()-X
-42 timeGravityAccelerometer-mean()-Y
-43 timeGravityAccelerometer-mean()-Z
-44 timeGravityAccelerometer-std()-X
-45 timeGravityAccelerometer-std()-Y
-46 timeGravityAccelerometer-std()-Z
-81 timeBodyAccelerometerJerk-mean()-X
-82 timeBodyAccelerometerJerk-mean()-Y
-83 timeBodyAccelerometerJerk-mean()-Z
-84 timeBodyAccelerometerJerk-std()-X
-85 timeBodyAccelerometerJerk-std()-Y
-86 timeBodyAccelerometerJerk-std()-Z
-121 timeBodyGyroscope-mean()-X
-122 timeBodyGyroscope-mean()-Y
-123 timeBodyGyroscope-mean()-Z
-124 timeBodyGyroscope-std()-X
-125 timeBodyGyroscope-std()-Y
-126 timeBodyGyroscope-std()-Z
-161 timeBodyGyroscopeJerk-mean()-X
-162 timeBodyGyroscopeJerk-mean()-Y
-163 timeBodyGyroscopeJerk-mean()-Z
-164 timeBodyGyroscopeJerk-std()-X
-165 timeBodyGyroscopeJerk-std()-Y
-166 timeBodyGyroscopeJerk-std()-Z
-201 timeBodyAccelerometerMagnitude-mean()
-202 timeBodyAccelerometerMagnitude-std()
-227 timeBodyAccelerometerJerkMagnitude-mean()
-228 timeBodyAccelerometerJerkMagnitude-std()
-240 timeBodyGyroscopeMagnitude-mean()
-241 timeBodyGyroscopeMagnitude-std()
-253 timeBodyGyroscopeJerkMagnitude-mean()
-254 timeBodyGyroscopeJerkMagnitude-std()
-266 frequencyBodyAccelerometer-mean()-X
-267 frequencyBodyAccelerometer-mean()-Y
-268 frequencyBodyAccelerometer-mean()-Z
-269 frequencyBodyAccelerometer-std()-X
-270 frequencyBodyAccelerometer-std()-Y
-271 frequencyBodyAccelerometer-std()-Z
-345 frequencyBodyAccelerometerJerk-mean()-X
-346 frequencyBodyAccelerometerJerk-mean()-Y
-347 frequencyBodyAccelerometerJerk-mean()-Z
-348 frequencyBodyAccelerometerJerk-std()-X
-349 frequencyBodyAccelerometerJerk-std()-Y
-350 frequencyBodyAccelerometerJerk-std()-Z
-424 frequencyBodyGyroscope-mean()-X
-425 frequencyBodyGyroscope-mean()-Y
-426 frequencyBodyGyroscope-mean()-Z
-427 frequencyBodyGyroscope-std()-X
-428 frequencyBodyGyroscope-std()-Y
-429 frequencyBodyGyroscope-std()-Z
-503 frequencyBodyAccelerometerMagnitude-mean()
-516 frequencyBodyAccelerometerJerkMagnitude-mean()
-517 frequencyBodyAccelerometerJerkMagnitude-std()
-529 frequencyBodyGyroscopeMagnitude-mean()
-530 frequencyBodyGyroscopeMagnitude-std()
-542 frequencyBodyGyroscopeJerkMagnitude-mean()
-543 frequencyBodyGyroscopeJerkMagnitude-std()
-
-
-
+- 1 timeBodyAccelerometer-mean()-X
+- 2 timeBodyAccelerometer-mean()-Y
+- 3 timeBodyAccelerometer-mean()-Z
+- 4 timeBodyAccelerometer-std()-X
+- 5 timeBodyAccelerometer-std()-Y
+- 6 timeBodyAccelerometer-std()-Z
+- 9 timeBodyAccelerometer-mad()-Z
+- 41 timeGravityAccelerometer-mean()-X
+- 42 timeGravityAccelerometer-mean()-Y
+- 43 timeGravityAccelerometer-mean()-Z
+- 44 timeGravityAccelerometer-std()-X
+- 45 timeGravityAccelerometer-std()-Y
+- 46 timeGravityAccelerometer-std()-Z
+- 81 timeBodyAccelerometerJerk-mean()-X
+- 82 timeBodyAccelerometerJerk-mean()-Y
+- 83 timeBodyAccelerometerJerk-mean()-Z
+- 84 timeBodyAccelerometerJerk-std()-X
+- 85 timeBodyAccelerometerJerk-std()-Y
+- 86 timeBodyAccelerometerJerk-std()-Z
+- 121 timeBodyGyroscope-mean()-X
+- 122 timeBodyGyroscope-mean()-Y
+- 123 timeBodyGyroscope-mean()-Z
+- 124 timeBodyGyroscope-std()-X
+- 125 timeBodyGyroscope-std()-Y
+- 126 timeBodyGyroscope-std()-Z
+- 161 timeBodyGyroscopeJerk-mean()-X
+- 162 timeBodyGyroscopeJerk-mean()-Y
+- 163 timeBodyGyroscopeJerk-mean()-Z
+- 164 timeBodyGyroscopeJerk-std()-X
+- 165 timeBodyGyroscopeJerk-std()-Y
+- 166 timeBodyGyroscopeJerk-std()-Z
+- 201 timeBodyAccelerometerMagnitude-mean()
+- 202 timeBodyAccelerometerMagnitude-std()
+- 227 timeBodyAccelerometerJerkMagnitude-mean()
+- 228 timeBodyAccelerometerJerkMagnitude-std()
+- 240 timeBodyGyroscopeMagnitude-mean()
+- 241 timeBodyGyroscopeMagnitude-std()
+- 253 timeBodyGyroscopeJerkMagnitude-mean()
+- 254 timeBodyGyroscopeJerkMagnitude-std()
+- 266 frequencyBodyAccelerometer-mean()-X
+- 267 frequencyBodyAccelerometer-mean()-Y
+- 268 frequencyBodyAccelerometer-mean()-Z
+- 269 frequencyBodyAccelerometer-std()-X
+- 270 frequencyBodyAccelerometer-std()-Y
+- 271 frequencyBodyAccelerometer-std()-Z
+- 345 frequencyBodyAccelerometerJerk-mean()-X
+- 346 frequencyBodyAccelerometerJerk-mean()-Y
+- 347 frequencyBodyAccelerometerJerk-mean()-Z
+- 348 frequencyBodyAccelerometerJerk-std()-X
+- 349 frequencyBodyAccelerometerJerk-std()-Y
+- 350 frequencyBodyAccelerometerJerk-std()-Z
+- 424 frequencyBodyGyroscope-mean()-X
+- 425 frequencyBodyGyroscope-mean()-Y
+- 426 frequencyBodyGyroscope-mean()-Z
+- 427 frequencyBodyGyroscope-std()-X
+- 428 frequencyBodyGyroscope-std()-Y
+- 429 frequencyBodyGyroscope-std()-Z
+- 503 frequencyBodyAccelerometerMagnitude-mean()
+- 516 frequencyBodyAccelerometerJerkMagnitude-mean()
+- 517 frequencyBodyAccelerometerJerkMagnitude-std()
+- 529 frequencyBodyGyroscopeMagnitude-mean()
+- 530 frequencyBodyGyroscopeMagnitude-std()
+- 542 frequencyBodyGyroscopeJerkMagnitude-mean()
+- 543 frequencyBodyGyroscopeJerkMagnitude-std()
 
 The set of variables that were estimated from these signals are:
 - mean(): Mean value
